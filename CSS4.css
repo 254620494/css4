@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+.head {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 45px;
+  background-color: #5fc0cd;
+  width: 100%;
+  z-index: 11111111;
+}
+.head .geren {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 2em;
+}
+.touxiang {
+  position: relative;
+  height: 200px;
+}
+.touxiang .img1 {
+  position: absolute;
+  width: 100%;
+  height: 92%;
+  top: 10%;
+  z-index: -1;
+}
+.touxiang .img4 {
+  position: absolute;
+  width: 100%;
+  z-index: 222;
+  height: 200px;
+}
+.touxiang .img2 {
+  position: absolute;
+  width: 70px;
+  height: 90px;
+  top: 75px;
+  left: 35px;
+  z-index: 2222;
+}
+.touxiang .img3 {
+  z-index: 1000;
+  position: absolute;
+  top: 75px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+}
+.touxiang .midll {
+  z-index: 1001;
+  position: relative;
+  width: 40%;
+  left: 150px;
+  top: 50%;
+  color: white;
+  font-size: 1.2em;
+}
+.touxiang .midll .img1 {
+  position: absolute;
+  left: 22px;
+  top: 30px;
+  width: 140px;
+  height: 17px;
+}
+.touxiang .midll .img2 {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 16px;
+  height: 21px;
+}
+.fatherjn {
+  position: relative;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+.fatherjn .jineng {
+  position: absolute;
+  border-left: 2px solid  #5fc0cd;
+  left: 30px;
+  top: 30px;
+  width: 120px;
+  height: 25px;
+}
+.fatherjn .jineng .z {
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+.zhujia {
+  position: relative;
+  left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  color: gray;
+  width: 90%;
+}
+.zhujia img {
+  position: relative;
+  top: 2px;
+}
+.zhujia2 {
+  position: absolute;
+  left: 90px;
+  width: 100px;
+  top: 30px;
+  height: 20px;
+  border-left: 2px solid lightgray;
+  text-indent: 10px;
+  color: black;
+}
+.zj233 {
+  position: relative;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  left: 20px;
+  border-bottom: 1px solid  black;
+  padding: 20px 0 20px 0;
+}
+.zj233 span:first-child {
+  flex-shrink: 0;
+  flex-basis: 90px;
+}
+.zj233 .ii {
+  font-size: 0;
+  padding: 10px 0px 10px 10px;
+  border-left: 2px solid #e1e5e7;
+  margin-left: 10px;
+}
+.text_red {
+  color: red;
+}
+.text_gray {
+  color: gray;
+}
+.foot {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 4.5em;
+  background-color: white;
+}
+.foot .foot_left {
+  display: inline-block;
+  border: 2px solid #5fc0cd;
+  border-radius: 8px;
+  width: 40%;
+  margin-left: 4.8%;
+  line-height: 2em;
+  text-align: center;
+  color: #5fc0cd;
+  font-size: 1.5em;
+}
+.foot .foot_right {
+  display: inline-block;
+  position: absolute;
+  width: 40%;
+  right: 4.8%;
+  border: 2px solid #5fc0cd;
+  border-radius: 8px;
+  line-height: 2em;
+  text-align: center;
+  background-color: #5fc0cd;
+  color: white;
+  font-size: 1.5em;
+}
+.wwww {
+  height: 4.5em;
+}
